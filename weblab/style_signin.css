@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(img1.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+	opacity: 0.93;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffcf0c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#555;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #696969;
+  color: white;
+}
+
+.signbox {
+	width: 25%;
+	height: 80%;
+	background: #000;
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 30px 30px;
+
+}
+
+.signbox h1{
+	text-align: left;
+	font-size: 42px;
+	border: none;
+	border-bottom: 1px solid #000;
+	color: #ffcf0c;
+	padding-bottom: 15px;
+}
+
+.signbox p{
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #ffcf0c;
+	padding-top: 10px;
+}
+
+.signbox input[type="text"], input[type="password"]{
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	background:#000;
+	border-color:#ffcf0c;
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 15px;
+	
+}
+.signbox input[type="submit"]{
+	width: 100%;
+	height: 30px;
+	background-color: #ffcf0c;
+	color: #000;
+	margin-top: 25px;
+	border-radius: 20px;
+	border: none;
+	font-size: 16px;
+}
+
+.signbox a{
+	color: darkgrey;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 20px;
+	display: block;
+	padding-top: 10px;
+
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+.searchButton {
+	
+	margin:10px;
+  	float: right; 
+  	width:35px;
+  	height: 33px;
+  	border:4px solid  #ffcf0c;
+ 	background: #000;
+  	text-align: center;
+  	color: #fff;
+ 	border-radius: 5px;
+  	cursor: pointer;
+  	font-size: 15px;
+  	text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
